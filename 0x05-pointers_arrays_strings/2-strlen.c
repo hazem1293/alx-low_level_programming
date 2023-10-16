@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strlen - checks for uppercase character
@@ -12,7 +13,7 @@ int _strlen(char *s)
 
 	i = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i] != '\0')
 	{
 		i++;
 	}
